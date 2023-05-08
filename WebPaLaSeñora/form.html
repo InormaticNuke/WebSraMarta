@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fomulario • Señora Marta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles\Style.css">
+    <link rel="icon" href="img\logoVieja2-modified.png" type="image/x-icon">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <div class="banner">
+        <a href="index.html"><img src="img\logoVieja8.jpg" alt="banner" id="banner01"></a>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Poductos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Limpiadores.html">Escobillas</a></li>
+                  <li><a class="dropdown-item" href="Limpiadores.html">Escobillones</a></li>
+                  <li><a class="dropdown-item" href="Limpiadores.html">Limpiadores</a></li>
+                  <li><a class="dropdown-item" href="Limpiadores.html">Traperos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Liquidos.html">Detergentes</a></li>
+                  <li><a class="dropdown-item" href="Liquidos.html">Lava Loza</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Otros.html">Bolsas de basura</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="indexQuien.html">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="indexDonde.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <br><br>
+
+    <section id="form1">
+
+      <form action="https://formsubmit.co/InformaticNuke@gmail.com" method="POST">
+        <p>Nombre:</p>
+        <input type="text" class="box" id="name">
+        <p>Apellido:</p>
+        <input type="text" class="box" id="lastname">
+        <br><br>
+        <p>Seleccione sus productos:</p>
+        <input type="radio" name="Lava Loza" id="001">Lava Loza <br>
+        <input type="radio" name="Detegente" id="002">Detergente <br>
+        <input type="radio" name="Escobillas" id="003">Escobillas <br>
+        <input type="radio" name="Escobillones" id="004">Escobillones <br>
+        <input type="radio" name="Bolsa de basura" id="005">Bolsa de basura <br>
+        <input type="radio" name="Trapero" id="006">Trapero <br>
+        <input type="radio" name="Limpiador de Piso" id="007"> Limpiador de Piso <br>
+        <br><br>
+        <p>Comentarios de entrega:</p>
+        <textarea name="SendMessage" id="txtmsg" cols="30" rows="10"></textarea>
+        <br><br><br>
+        <p>Registra tu correo:</p>
+        <input type="email" name="email" id="email">
+        <br><br><br>
+        <br><br>
+        <input type="submit" value="Enviar" id="MyButton1">
+        <input type="reset" value="Limpiar campos" id="MyButton2">
+
+      </form>
+
+    </section>
+
+    <br></br>
+
+    <footer>
+      <p>&copy; InfomaticNuke | NukeGlobalSA</p>
+      <p>
+        <a href="https://www.instagram.com/informaticnuke/" target="_blank">Instagram | </a>
+        <a href="https://twitter.com/InformaticNuke" target="_blank">Twitter | </a>
+        <a href="https://www.reddit.com/user/InformaticNuke" target="_blank">Reddit | </a>
+        <a href="https://steamcommunity.com/id/InformaticNuke/" target="_blank">Steam | </a>
+        <a href="https://discord.gg/vkBm8EQ" target="_blank">Discord</a>
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+
+</html>
