@@ -1,3 +1,5 @@
+<!-- Intento de Envio de formulaio **NO FUNCIONAL** -->
+
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

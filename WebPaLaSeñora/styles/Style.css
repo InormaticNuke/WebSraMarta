@@ -1,3 +1,4 @@
+/* Estilo del banner de inicio */
 .banner{
     text-align: center;
     background-color: #84d8e9;
@@ -31,6 +32,7 @@ section {
     margin-bottom: 20px;
 }
 
+/* Estilo del Display de Poductos */
 .product {
     display: inline-block;
     width: calc(20% - 20px);
@@ -63,6 +65,21 @@ section {
     margin-bottom: 10px;
 }
 
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo de las cajas de Infomacion */
 .Info {
     margin: 0 auto;
 	margin-bottom: 20px;
@@ -124,6 +141,7 @@ section {
     max-width: auto;
 }
 
+/* Estilo del Formulario de Contacto */
 #form1{
     margin: 0 auto;
 	margin-bottom: 20px;
@@ -137,6 +155,7 @@ section {
     font-size: 20px;
 }
 
+/* Estilo del Display de RRSS */
 #redes{
     overflow-x: auto;
     white-space: nowrap;
@@ -167,6 +186,8 @@ section {
     transform: translateY(5px);
 }
 
+
+/* Estilo del boton de Formulario Linea 99-105 */
 .formButton{
     margin: 0 auto;
 	margin-bottom: 20px;
@@ -182,20 +203,7 @@ section {
     box-shadow: 0 3px 5px #414141;
 }
 
-button {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 8px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s;
-}
-  
-button:hover {
-    background-color: #45a049;
-}
-
+/* Estilo del Display de imagenes INDEX */
 .carousel-item img{
     max-height: 200px;
     object-fit: fill;
